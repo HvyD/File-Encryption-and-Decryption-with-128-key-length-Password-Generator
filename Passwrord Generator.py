@@ -1,17 +1,16 @@
 
 # coding: utf-8
-
-# In[1]:
+# Hvy_D
 
 
 import os, random
 
-
-# In[11]:
-
-
 def randPassGen():
-    key_L = 12
+    key_L = 128
     key_chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%*'
     print(''.join(random.choice(key_chars)for password in range(key_L)))
+    
+    
+randPassGen()
+
 
