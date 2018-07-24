@@ -1,7 +1,6 @@
 
 # coding: utf-8
-
-# In[ ]:
+# Hvy_D
 
 
 import base64
@@ -9,9 +8,6 @@ from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.backends import default_backend
 import getpass
-
-
-# In[ ]:
 
 
 class CryptoKey:
@@ -44,8 +40,6 @@ class CryptoKey:
         decrypted = f.decrypt(token.encode(encoding = 'utf-8'))
         print(decrypted)
 
-
-# In[ ]:
 
 
 # decrypt file
